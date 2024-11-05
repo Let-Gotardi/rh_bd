@@ -1,0 +1,80 @@
+body {
+    background-color: #cbecf6;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: #3f3ccf;
+    margin-top: 10%;
+}
+
+a {
+    color: #1c3e6e;
+    text-decoration: none; /* tira linha link */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    background-color: #f7f9fc;
+    border: 2px solid #215088;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    position: relative;
+}
+
+legend {
+    font-weight: bold;
+    color: #215088;
+    padding: 0 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #215088;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0 16px 0; 
+    border: 2px solid #215088;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],a {
+    background-color: #215088;
+    text-decoration: none; /* tira linha link */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: smaller;
+}
+
+main {
+    margin-top: 20px;
+}
+
+
+img {
+    width: 200px; 
+    height: auto;
+    margin-bottom: 60px;
+    
+}

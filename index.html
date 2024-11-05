@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1724/1724987.png">
+<body>
+        <h1>Entre na sua conta</h1>
+    <main>
+        <fieldset>
+        <form action="login.php" method="post">
+            <label> Usuario:</label>
+            <input type="text" name="usuario" required><br><br>
+
+            <label>Senha:</label>
+            <input type="password" name="senha" required><br><br>
+
+            <input type="submit" value="Cadastrar">
+
+            <center><a href="cadastro.html">Cadastrar Pessoa</a></center>
+
+    
+
+        </fieldset>
+    </main>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+</body>
+</html>
